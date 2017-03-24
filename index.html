@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<!-- Core library. Do not remove -->
+		<link rel="stylesheet" href="css/reveal.css">
+
+		<!-- Your theme file. Relace with your own custom theme -->
+		<link rel="stylesheet" href="css/simple.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="css/zenburn.css">
+
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background="purple">
+					<h1 >TRENDING STREETWEAR</h1>
+					<h2>Supreme, Palace, Bape, Y-3, KITH</h2>
+				</section>
+
+				<section data-background="red">
+					<h1 class="logan">Supreme</h1>
+					<p>The Hype</p>
+					<img src="http://d17ol771963kd3.cloudfront.net/assets/stores/store_1a-7deb87036d92368154245ee2f05e6e40.jpg">
+				</section>
+
+				<section data-background=grey>
+					<h2>PALACE</h2>
+					<p>Russian Skate Culture</p>
+					<img src="http://static.highsnobiety.com/wp-content/uploads/2016/03/07103507/palace-skateboards-spring-summer-2016-street-style-london-0.jpg">
+				</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// Factor of the display size that should remain empty around the content
+				margin: 0,
+
+				// Bounds for smallest/largest possible scale to apply to content
+				minScale: 0.2,
+				maxScale: 1.0,
+
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
